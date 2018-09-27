@@ -1,0 +1,19 @@
+Quiz 1-2: Common Senses (30%)
+
+1. When will we use F1-score instead of precision(accuracy)?
+2. Why don’t we use binary classification function as the activation function in neural networks?
+
+3. What is the bias and variance of a machine learning algorithm?
+    bias是根據樣本擬合出的模型的輸出預測結果之期望與樣本真實結果的差距。
+    varience是在樣本上訓練出來的模型在測試集上的表現
+4. When training a single tree in random forest, we don’t prune the tree, why?
+5. What is one-hot encoding?
+    one-hot encoding 是將分類變數轉換為可以提供給 ML algorithms 預測工作的過程。
+    以n位狀態寄存器來對n個狀態進行編碼
+
+6. How to prevent overfitting in neural networks? (write down anything you know)
+    從低次模型開始做起，在慢慢加入高次項
+    提升資料的正確性，將錯誤的Data修正或刪除
+    擴增原有的資料，例如在圖形辨識問題中，可以用平移和旋轉來擴增出更多Data
+    Regularization，限制權重W的大小以控制高次的影響
+    Validation，將部分Data保留不進去Fitting，然後用Validation Data來檢驗Overfitting的程度
